@@ -1,0 +1,32 @@
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air"
+title: "Pushpesh's Website"
+title_separator: "-"
+name: "Pushpesh Gokul Pant"
+description: "Portfolio of Pushpesh Gokul Pant, a Master's student at IIT Guwahati working on Computer Vision, LLMs, NLP and Signal Processing."
+url: "https://xpushpeshx.github.io"
+baseurl: "/web"
+
+breadcrumbs: true
+
+atom_feed:
+  hide: true
+
+plugins:
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: "Pushpesh Gokul Pant"
+  avatar: "/assets/images/profile_small.png"
+  bio: "Master's in AI and Robotics at IIT Guwahati"
+  location: Assam, India
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/xPushpeshx"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://in.linkedin.com/in/pushpesh-gokul-pant"
