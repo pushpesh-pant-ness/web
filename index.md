@@ -4,19 +4,15 @@ title: Home
 author_profile: true
 ---
 
-<a rel="me" href="{{ "/" | relative_url }}"></a>
-
 ## About Me
 
 Hello! :wave:
 
-I'm Pushpesh, a Master's student at the <b>Indian Institute of Technology Guwahati</b>.
+<span class="status-badge"><span class="status-dot" aria-hidden="true"></span>Currently building Agentic AI &amp; MCP tooling at Ness Digital Engineering</span>
 
-My academic and research interests lie in <b>Computer Vision, Large Language Models (LLMs), Bash Scripting, and Signal Processing</b>.
+I'm Pushpesh, Recently completed my Master's at the <b>Indian Institute of Technology Guwahati</b>, working as an AI Engineer at Ness Digital Engineering.
 
-As of now, I am working on Agentic AI and MCPs (Model Context Protocol), Harness Engineering, and adding security layers to the AI domain.
-
-I currently work as an <b>AI Engineer at Ness Digital Engineering</b>.
+My academic and research interests lie in Computer Vision, Large Language Models (LLMs), Bash Scripting, and Signal Processing. Right now I'm focused on Agentic AI and MCPs (Model Context Protocol), Harness Engineering, and adding security layers to the AI domain.
 
 ### Skills & Interests
 
@@ -29,7 +25,14 @@ I currently work as an <b>AI Engineer at Ness Digital Engineering</b>.
 <span class="skill-badge">AI Security</span>
 
 <div class="cta-row" markdown="0">
-  <a href="projects/" class="btn btn--primary">View Projects</a>
-  <a href="exp/" class="btn btn--info">See Experience</a>
-  <a href="assets/docs/pushpesh_resume.pdf" class="btn btn--success">Download Resume</a>
+  <a href="{{ "/projects/" | relative_url }}" class="btn btn--primary">View Projects</a>
+  <a href="{{ "/exp/" | relative_url }}" class="btn btn--light-outline">See Experience</a>
+  <a href="{{ "/resume/" | relative_url }}" class="btn btn--light-outline">Resume</a>
+</div>
+
+### Get in Touch
+
+<div class="cta-row" markdown="0">
+  <a href="https://in.linkedin.com/in/pushpesh-gokul-pant" class="btn btn--primary" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> Message on LinkedIn</a>
+  <a href="https://github.com/xPushpeshx" class="btn btn--dark" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
 </div>

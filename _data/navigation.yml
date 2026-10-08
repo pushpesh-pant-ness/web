@@ -3,5 +3,7 @@ main:
     url: /projects/
   - title: Experience
     url: /exp/
+  - title: Notes
+    url: /notes/
   - title: Resume
-    url: /assets/docs/pushpesh_resume.pdf
+    url: /resume/

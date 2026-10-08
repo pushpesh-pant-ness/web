@@ -7,10 +7,25 @@ description: "Portfolio of Pushpesh Gokul Pant, a Master's student at IIT Guwaha
 url: "https://xpushpeshx.github.io"
 baseurl: "/web"
 
+social:
+  name: "Pushpesh Gokul Pant"
+  links:
+    - "https://github.com/xPushpeshx"
+    - "https://in.linkedin.com/in/pushpesh-gokul-pant"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/profile_small.png"
+
 breadcrumbs: true
 
 atom_feed:
   hide: true
+
+after_footer_scripts:
+  - /assets/js/enhancements.js
 
 plugins:
   - jekyll-include-cache

@@ -1,0 +1,29 @@
+# Each project: title, description, tags (used for filter buttons), and optional links.
+# image: optional path under /assets/images/projects/ (leave blank if none yet).
+- title: "Flare Removal (Google Research Inspired)"
+  description: "Re-implemented and enhanced a deep learning model for lens flare removal using semi-synthetic flare-corrupted image pairs generated via empirical and wave-optics simulation. Improved generalization across real-world scenarios, achieving ~3 dB PSNR gain over baselines."
+  tags: ["Deep Learning", "Computer Vision", "Image Processing"]
+  image: ""
+  pdf: "https://arxiv.org/pdf/2011.12485.pdf"
+  code: "https://github.com/xPushpeshx/flare_removal"
+
+- title: "Vision Transformer (ViT)"
+  description: "Implemented the original Vision Transformer architecture for image classification based on patch embedding and transformer encoder blocks. Trained on standard datasets and explored fine-tuning techniques for better performance."
+  tags: ["Transformers", "Computer Vision", "Deep Learning"]
+  image: ""
+  pdf: "https://arxiv.org/pdf/2010.11929v2.pdf"
+  code: "https://github.com/xPushpeshx/ViT_visionTransformer"
+
+- title: "Speech-Driven Personal Note Taker"
+  description: "Developed a voice-enabled system using OpenAI Whisper and spaCy NLP to transcribe speech and extract key information in real-time. Integrated optional TTS feedback and structured note formatting."
+  tags: ["Whisper", "spaCy", "NLP"]
+  image: ""
+  pdf: ""
+  code: "https://github.com/xPushpeshx/notesTaker"
+
+- title: "Face Detection"
+  description: "Implemented a real-time face detection pipeline using OpenCV and pre-trained models. Explored Haar cascades, DNN modules, and custom dataset evaluation."
+  tags: ["OpenCV", "Computer Vision"]
+  image: ""
+  pdf: ""
+  code: "https://github.com/xPushpeshx/face_detection"
